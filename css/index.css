@@ -5,9 +5,9 @@ light green: #93FF02;
 grey: #ededed;
  */
 
-body, html{
+body{
   background-color: #ededed;
-  height: 100%;
+
 }
 
 /* NAVBAR */
@@ -24,11 +24,9 @@ body, html{
 .mainContent{
   padding-bottom: 3%;
   color: #011d48;
-  height: 100%;s
+  /* height: 90%; */
 }
-/* .mainSecion{
-  height: 70%;
-} */
+
 #shippingInfo{
   padding: 3% 0px;
   color: #93FF02;
@@ -41,15 +39,16 @@ body, html{
 img{
   padding: 10% auto;
 }
-footer{
+#footer{
   background-color: #011d48;
+  position: fixed;
 }
 
 .setFooterHeadingsColor{
   color: #ffff00;
 }
 
-.setFootersTextColor{
+.setFootersTextColor, .setFootersTextColor:hover{
   color: white;
 }
 
