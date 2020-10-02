@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Shipment Info</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/index.css">
+  </head>
+  <body>
+    <nav class="nav nav-pills nav-fill">
+      <a class="nav-item nav-link setNavColor" href="#">Home</a>
+      <a class="nav-item nav-link setNavColor" href="#">About</a>
+      <a class="nav-item nav-link setNavColor" href="#">Programs</a>
+      <a class="nav-item nav-link active" id="active" href="#">Checkout</a>
+    </nav>
+
+<!-- MAIN SECTION -->
+    <section class="mainContent">
+      <div class="container" id="main">
+        <h1 class="text-center" id="shippingInfo">Shipping Info</h1>
+        <form>
+
+          <div class="form-row">
+            <div class="col">
+              <label for="">First name</label>
+              <input type="text" class="form-control" placeholder="First name">
+            </div>
+            <div class="col">
+              <label for="">Last name</label>
+              <input type="text" class="form-control" placeholder="Last name">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputEmail4">Email</label>
+              <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="">Phone Number</label>
+              <input type="" class="form-control" id="Phone Number" placeholder="Phone Number">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="inputAddress">Address</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+          </div>
+          <div class="form-group">
+            <label for="inputAddress2">Address 2</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputCity">City</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="form-group col-md-4">
+              <label for="inputState">State</label>
+              <select id="inputState" class="form-control">
+                <option selected>Choose...</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div class="form-group col-md-2">
+              <label for="inputZip">Zip</label>
+              <input type="text" class="form-control" id="inputZip">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-6">
+              <button class="btn buttons">Back</button>
+            </div>
+            <div class="col-sm-6">
+              <button type="submit" class="btn buttons float-right">Continue</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+<!-- FOOTER -->
+    <footer class="">
+      <section class="footer">
+        <div class="container">
+          <div class="row" id="imageAndAbout">
+            <div class="col-lg-6">
+              <img src="css/img/logo.png" alt="">
+            </div>
+            <div class="col-lg-6" id="aboutUs">
+              <h1 class="setFooterHeadingsColor text-center">About Us</h1>
+              <p class="setFootersTextColor text-center">The STEM Truck is a mobile learning space that delivers quality, hands on, STEM activities to students and educators.</p>
+            </div>
+          </div>
+          <div class="row" id="contactAndLinks">
+            <div class="col-sm-6">
+              <h1 class="setFooterHeadingsColor text-center">Contact Info</h1>
+              <p class="setFootersTextColor text-center">programs@stemtruck.org</p>
+              <p class="setFootersTextColor text-center"><a href="www.stemtruck.org">Stem Truck</a></p>
+            </div>
+            <div class="col-sm-6">
+              <h1 class="setFooterHeadingsColor text-center">Quick Links</h1>
+              <p class="text-center"><a class="setFootersTextColor" href="#">Home</a></p>
+              <p class="text-center"><a class="setFootersTextColor" href="#">About</a></p>
+              <p class="text-center"><a class="setFootersTextColor" href="#">Programs</a></p>
+              <p class="text-center"><a class="setFootersTextColor" href="#">Contact</a></p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
