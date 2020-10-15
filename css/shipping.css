@@ -7,6 +7,7 @@ grey: #ededed;
 
 body{
   background-color: #ededed;
+  height: 97vh;
 
 }
 
@@ -42,6 +43,7 @@ img{
 #footer{
   background-color: #011d48;
   position: fixed;
+  /* padding-top: 60px; */
 }
 
 .setFooterHeadingsColor{

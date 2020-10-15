@@ -1,0 +1,43 @@
+/*
+yellow: #ffff00;
+dark blue: #011d48;
+light green: #93FF02;
+grey: #ededed;
+ */
+
+/* body{
+  overflow-y: scroll;
+  position: relative;
+  height: 300vh;
+} */
+/* NAVBAR */
+.setNavColor {
+  color: #011d48;
+  background-color: #ffff00;
+}
+
+#active {
+  background-color: #011d48;
+}
+
+/* MAIN SECTION */
+.col-md-4 {
+  margin-top: 50px;
+}
+
+.card-img-top {
+  width: 100%;
+}
+.card-img-top:active {
+  width: 100%;
+  transform: rotateY(180deg);
+}
+
+/* MOBILE VIEW */
+@media (max-width: 375px) {
+  .row{
+    margin-bottom: 200px;
+  }
+  .card{
+    width: 21rem;
+  }

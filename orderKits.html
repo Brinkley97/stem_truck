@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>Order Kits</title>
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/orderKits.css">
+  </head>
+  <body>
+    <nav class="nav nav-pills nav-fill">
+      <a class="nav-item nav-link setNavColor" href="#">Home</a>
+      <a class="nav-item nav-link setNavColor" href="#">About</a>
+      <a class="nav-item nav-link setNavColor" href="#">Programs</a>
+      <a class="nav-item nav-link active" id="active" href="shipping.html">Cart</a>
+    </nav>
+
+<!-- MAIN SECTION -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top" src="css/img/chemistryHeader.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <div class="row d-flex justify-content-between" id="chemCount">
+                <a href="#chemCount" class="btn">
+                  <i class="fas fa-minus"></i>
+                </a>
+                <input class="text-center" type="text" id="chemNumber" value="0"/>
+                <a href="#chemCount" class="btn" onclick="incrementChemistry()">
+                  <i class="fas fa-plus"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top" src="css/img/electronicsHeader.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <div class="row d-flex justify-content-between" id="elecCount">
+                <a href="#elecCount" class="btn">
+                  <i class="fas fa-minus"></i>
+                </a>
+                <input class="text-center" type="text" id="elecNumber" value="0"/>
+                <a href="#elecCount" class="btn" onclick="incrementElectronics()">
+                  <i class="fas fa-plus"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top" src="css/img/engineeringHeader.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <div class="row d-flex justify-content-between" id="engiCount">
+                <a href="#engiCount" class="btn">
+                  <i class="fas fa-minus"></i>
+                </a>
+                <input class="text-center" type="text" id="engiNumber" value="0"/>
+                <a href="#engiCount" class="btn" onclick="incrementEngineering()">
+                  <i class="fas fa-plus"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- END OF MAIN SECTION -->
+<!-- FOOTER -->
+    <footer class="page-footer font-small mdb-color pt-4">
+
+    </footer>
+<!-- END OF FOOTER -->
+    <script type="text/javascript" src="js/orderKits.js">
+    </script>
+  </body>
+</html>
