@@ -36,8 +36,8 @@ grey: #ededed;
 /* MOBILE VIEW */
 @media (max-width: 375px) {
   .row{
-    margin-bottom: 200px;
+    margin-bottom: 100px;
   }
   .card{
-    width: 21rem;
+    width: 19rem;
   }
