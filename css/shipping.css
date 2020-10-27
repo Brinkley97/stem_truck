@@ -5,11 +5,11 @@ light green: #93FF02;
 grey: #ededed;
  */
 
-body{
-  background-color: #ededed;
-  height: 97vh;
-
-}
+ html, body{
+   background-color: #ededed;
+   max-width: 100%;
+   overflow-x: hidden;
+ }
 
 /* NAVBAR */
 .setNavColor{
@@ -23,9 +23,11 @@ body{
 
 /* MAIN SECTION */
 .mainContent{
-  padding-bottom: 3%;
+  /* margin-top: 10px; */
+  padding-bottom: 1%;
   color: #011d48;
   /* height: 90%; */
+  text-align: center;
 }
 
 #shippingInfo{
@@ -36,14 +38,15 @@ body{
   background-color: #93FF02;
 }
 
-/* FOOTER */
-img{
-  padding: 10% auto;
+/*  */
+#backAndContinue{
+  pad-bottom: 10px;
 }
+
+/* FOOTER */
 #footer{
   background-color: #011d48;
-  position: fixed;
-  /* padding-top: 60px; */
+  margin-top: 70px;
 }
 
 .setFooterHeadingsColor{
@@ -56,4 +59,14 @@ img{
 
 #contactAndLinks, #imageAndAbout, #aboutUs{
   padding-top: 5%;
+}
+
+@media (max-width: 375px) {
+  #shippingInfo{
+    padding-top: 10%;
+    color: #93FF02;
+  }
+  #stemTruckImage{
+    width: 100% ;
+  }
 }
