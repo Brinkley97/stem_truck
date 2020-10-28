@@ -5,10 +5,10 @@ light green: #93FF02;
 grey: #ededed;
  */
 
- html, body{
-   background-color: #ededed;
-   max-width: 100%;
-   overflow-x: hidden;
+html, body{
+  background-color: #ededed;
+  max-width: 100%;
+  overflow-x: hidden;
  }
 
 /* NAVBAR */
@@ -61,12 +61,18 @@ grey: #ededed;
   padding-top: 5%;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
+  html, body{
+    padding-bottom: 5%;
+  }
   #shippingInfo{
     padding-top: 10%;
     color: #93FF02;
   }
   #stemTruckImage{
     width: 100% ;
+  }
+  #continue{
+    margin-top: 45px;
   }
 }
