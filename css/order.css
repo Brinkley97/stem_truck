@@ -49,9 +49,7 @@ input.quantityBox {
   width: 300px;
   height: 300px;
 }
-#continue{
-  margin-top: 5px;
-}
+
 .flip-card {
   /* background-color: #ffff00; */
   height: 200px;
@@ -101,10 +99,9 @@ input.quantityBox {
   font-weight: bold;
   font-size: 30px;
   color: #011d48;
+  margin: 5px 10px 5px 0px;
 }
-.totalKits{
-  margin-right: 10px;
-}
+
 
 
 /* FOOTER */
@@ -129,8 +126,7 @@ input.quantityBox {
   #stemTruckImage{
     width: 100% ;
   }
-  .totalKits{
-    width: 175px;
-    margin-right: 0px;
+  #continue{
+    margin-top: 45px;
   }
 }

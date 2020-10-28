@@ -76,16 +76,19 @@
     <!-- END OF MAIN SECTION -->
 
     <!-- TOTAL AND CONTINUE -->
-    <section class="container-fluid" id="totalAndContinue">
-      <div class="row d-flex justify-content-center">
-        <p id="totalKits">Total Kits:
-          <input class="totalKits text-center" type="text" name="totalKits" value="" readonly>
-        </p>
-        <p id="continue">
-          <a href="shipping.html">
-            <button type="button" class="btn">Add Shipment Information</button>
-          </a>
-        </p>
+    <section class="container" id="totalAndContinue">
+      <div class="row">
+        <div class="col-md-6 d-flex justify-content-center">
+          <p class="text-center" id="totalKits">Total Kits</p>
+          <input class="text-center" type="number" min="0" value="" readonly>
+        </div>
+        <div class="col-md-6 d-flex justify-content-center">
+          <p id="continue">
+            <a href="shipping.html">
+              <button type="button" class="btn">Add Shipment Information</button>
+            </a>
+          </p>
+        </div>
       </div>
     </section>
     <!-- END OF TOTAL AND CONTINUE -->
@@ -93,21 +96,21 @@
     <!-- FOOTER -->
     <section class="container-fluid" id="footer">
       <div class="row" id="imageAndAbout">
-        <div class="col-lg-6 col-sm-12">
+        <div class="col-lg-6 col-xs*-12">
           <img id="stemTruckImage"src="css/img/logo.png" alt="">
         </div>
-        <div class="col-lg-6 col-sm-12 " id="aboutUs">
+        <div class="col-lg-6 col-xs*-12 " id="aboutUs">
           <h1 class="setFooterHeadingsColor text-center">About Us</h1>
           <p class="setFootersTextColor text-center">The STEM Truck is a mobile learning space that delivers quality, hands on, STEM activities to students and educators.</p>
         </div>
       </div>
       <div class="row" id="contactAndLinks">
-        <div class="col-sm-6">
+        <div class="col-xs*-6">
           <h1 class="setFooterHeadingsColor text-center">Contact Info</h1>
           <p class="setFootersTextColor text-center">programs@stemtruck.org</p>
           <p class="text-center"><a class="setFootersTextColor" href="www.stemtruck.org">Stem Truck</a></p>
         </div>
-        <div class="col-sm-6">
+        <div class="col-xs*-6">
           <h1 class="setFooterHeadingsColor text-center">Quick Links</h1>
           <p class="text-center"><a class="setFootersTextColor" href="#">Home</a></p>
           <p class="text-center"><a class="setFootersTextColor" href="#">About</a></p>
