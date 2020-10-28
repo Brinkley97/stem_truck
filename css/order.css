@@ -122,7 +122,10 @@ input.quantityBox {
   padding-top: 5%;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
+  html, body{
+    padding-bottom: 5%;
+  }
   #stemTruckImage{
     width: 100% ;
   }
